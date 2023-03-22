@@ -28,8 +28,7 @@ func main() {
 		101: {576872813: 5, 657473833: 20},
 		102: {},
 	}
-
-	who, phone := "dulin", "N/A"
+    who, phone := "dulin", "N/A"
 
 	if v, ok := phones[who]; ok {
 		phone = v
